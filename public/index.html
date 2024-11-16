@@ -7,7 +7,48 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="text-4xl text-red-900 m-4">Hello World</h1>
+    <!-- background -->
+    <div class="flex items-center bg-zinc-700 justify-center h-screen">
+      <!-- card -->
+      <div class="bg-zinc-800 p-2 rounded-2xl">
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <img
+            src="./assets/images/image.jpg"
+            alt=""
+            class="object-fill rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none hover:scale-105 transform duration-200 hover:rounded-xl pb-4 md:pb-0"
+          />
+          <div class="p6 md:p-12">
+            <h2
+              class="font-serif text-xl text-white font-medium text-center md:text-left"
+            >
+              Get diets and fitness tips in your inbox
+            </h2>
+            <p
+              class="max-w-xs text-xs my-4 text-white text-center md:text-left leading-5 tracking-wide"
+            >
+              Eat better and exercice better. sing up for the dite & fitness
+              news lettter.
+            </p>
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:space-x-3 md:space-y-0"
+            >
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Inter your email adress"
+                class="p-2 px-4 text-center md:text-left md:placeholder:text-left placeholder:text-center text-white bg-zinc-800 border border-zinc-600 focus:outline-none rounded-sm"
+              />
+              <button
+                class="px-5 py-3 text-sm duration-500 rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white"
+              >
+                subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="../src/js/app.js"></script>
   </body>
 </html>

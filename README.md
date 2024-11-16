@@ -1,1 +1,1 @@
-### project starter folder
+## email subscribe card
